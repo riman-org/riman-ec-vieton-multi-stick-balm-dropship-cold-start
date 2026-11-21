@@ -1,0 +1,6 @@
+Owner: riman-org
+Repository name: riman-ec-vieton-multi-stick-balm-dropship-cold-start
+Description (318/350 chars): RIMAN Skincare & INCELLDERM Vieton Multi Stick Balm (Ecuador): Clinical & Microclimate Evaluation of INCELLDERM Vieton Multi Stick Balm under Zero-Inventory Drop-Shipping Mo... 6-language paper, n=200 dataset & INCI index: https://www.riman.win/www/en/reports/detail/ec-vieton-multi-stick-balm-dropship-cold-start.html
+Website (About URL): https://www.riman.win/www/en/reports/detail/ec-vieton-multi-stick-balm-dropship-cold-start.html
+GitHub Repo URL: https://github.com/riman-org/riman-ec-vieton-multi-stick-balm-dropship-cold-start
+GitHub Pages URL: https://riman-org.github.io/riman-ec-vieton-multi-stick-balm-dropship-cold-start/
