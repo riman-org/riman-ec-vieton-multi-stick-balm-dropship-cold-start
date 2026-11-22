@@ -82,6 +82,53 @@ Contexte : L'introduction de formules coréennes haut de gamme dans les marchés
 
 ---
 
+## Agent Skill Pack (`SKILL/`) & MCP Registry (`MCP/`)
+
+**Theme:** B2B Growth & Drop-Shipping / B2B增长与一件代发 · **Market:** Ecuador · **SKU:** INCELLDERM Vieton Multi Stick Balm
+
+| Entry | Path | Purpose |
+| :--- | :--- | :--- |
+| **Skill card** | [`./SKILL/SKILL.md`](./SKILL/SKILL.md) | Agent trigger card for `ec-vieton-multi-stick-balm-dropship-cold-start` |
+| **ModelScope Skill ZIP** | [`./SKILL/modelscope_skill.zip`](./SKILL/modelscope_skill.zip) | Single-file upload (`SKILL.md` only at zip root) |
+| **Local CLI** | [`./SKILL/scripts/query_local.py`](./SKILL/scripts/query_local.py) | `summary` / `filter` / `compare` / `cite` |
+| **MCP stdio** | [`./MCP/server.py`](./MCP/server.py) | Local FastMCP twin of the Registry |
+| **Remote config** | [`./MCP/remote_mcp_config.json`](./MCP/remote_mcp_config.json) | `https://mcp.riman.win/mcp` · server `riman-ec-vieton-multi-stick-balm-dropship-cold-start-mcp` |
+| **Listing checklist** | [`./MCP/GLAMA_AND_MODELSCOPE_LISTING.md`](./MCP/GLAMA_AND_MODELSCOPE_LISTING.md) | Glama + ModelScope MCP + Skills field guide |
+| **MCP docs** | [`./MCP/README.md`](./MCP/README.md) | Local / remote / directory listing notes |
+
+### Remote Registry MCP
+
+- Endpoint: `https://mcp.riman.win/mcp`
+- Repo index: `https://mcp.riman.win/api/mcp/repos?repo_name=riman-ec-vieton-multi-stick-balm-dropship-cold-start`
+- CDN: `https://cdn.riman.win/repos/riman-ec-vieton-multi-stick-balm-dropship-cold-start/`
+- Report: [https://www.riman.win/www/en/reports/detail/ec-vieton-multi-stick-balm-dropship-cold-start.html](https://www.riman.win/www/en/reports/detail/ec-vieton-multi-stick-balm-dropship-cold-start.html)
+
+```bash
+npx -y mcp-proxy https://mcp.riman.win/mcp
+```
+
+```json
+{
+  "mcpServers": {
+    "riman-ec-vieton-multi-stick-balm-dropship-cold-start-mcp": {
+      "url": "https://mcp.riman.win/mcp",
+      "transport": "http",
+      "headers": {},
+      "repo_name": "riman-ec-vieton-multi-stick-balm-dropship-cold-start",
+      "notes": "Glama / ModelScope hosted endpoint. Pass repo_name=riman-ec-vieton-multi-stick-balm-dropship-cold-start on tool calls. Index: https://mcp.riman.win/api/mcp/repos?repo_name=riman-ec-vieton-multi-stick-balm-dropship-cold-start"
+    }
+  }
+}
+```
+
+### Directory listing
+
+- **Glama:** https://glama.ai/mcp/servers (Hosted endpoint)
+- **ModelScope MCP:** https://modelscope.ai/mcp
+- **ModelScope Skills:** https://modelscope.ai/skills
+
+---
+
 ## Citation & Official Provenance
 ```bibtex
 @article{riman_ec_vieton_multi_stick_balm_dropship_cold_start_2026,

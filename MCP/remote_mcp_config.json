@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "riman-ec-vieton-multi-stick-balm-dropship-cold-start-mcp": {
+      "url": "https://mcp.riman.win/mcp",
+      "transport": "http",
+      "headers": {},
+      "repo_name": "riman-ec-vieton-multi-stick-balm-dropship-cold-start",
+      "proxy_bridge": "npx -y mcp-proxy https://mcp.riman.win/mcp",
+      "repos_index": "https://mcp.riman.win/api/mcp/repos?repo_name=riman-ec-vieton-multi-stick-balm-dropship-cold-start",
+      "cdn_prefix": "https://cdn.riman.win/repos/riman-ec-vieton-multi-stick-balm-dropship-cold-start/",
+      "report_url": "https://www.riman.win/www/en/reports/detail/ec-vieton-multi-stick-balm-dropship-cold-start.html",
+      "description_en": "RIMAN open-science MCP for INCELLDERM Vieton Multi Stick Balm in Ecuador (B2B Growth & Drop-Shipping). Query n=200 survey CSV, 6-language corpus, and dual DOIs via https://mcp.riman.win/mcp. Mean=3.65/5, Top-2-Box=64.2%.",
+      "description_zh": "力曼 RIMAN 开源 MCP：Ecuador市场 INCELLDERM Vieton Multi Stick Balm（B2B增长与一件代发）。通过 https://mcp.riman.win/mcp 检索 n=200 定量 CSV、六语语料与双基准 DOI。综合均分 3.65/5，Top-2-Box 64.2%。",
+      "directories": {
+        "glama": "https://glama.ai/mcp/servers",
+        "modelscope_mcp": "https://modelscope.ai/mcp",
+        "modelscope_skills": "https://modelscope.ai/skills"
+      },
+      "notes": "Official RIMAN Registry MCP. Use only https://mcp.riman.win/mcp."
+    }
+  }
+}
